@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MagpieRunner2",
+      "request": "launch",
+      "mainClass": "MagpieRunner2"
+    }
+  ]
+}
