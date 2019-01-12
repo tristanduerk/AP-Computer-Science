@@ -17,10 +17,18 @@ public class StringExplorer
 		
 		//  Demonstrate the toLowerCase method.
 		String lowerCase = sample.toLowerCase();
+		System.out.println ("Before toLowerCase(), sample = " + sample);
 		System.out.println ("sample.toLowerCase() = " + lowerCase);
-		System.out.println ("After toLowerCase(), sample = " + sample);
 		
 		//  Try other methods here:
+		position = sample.indexOf("slow");
+		System.out.println ("sample.indexOf(\"slow\") = " + position);
+
+		sample = sample.replace("quick", "slow");
+		position = sample.indexOf("slow");
+		System.out.println ("sample.indexOf(\"slow\") = " + position);
+
+
 
 	}
 
